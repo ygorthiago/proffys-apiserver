@@ -10,9 +10,9 @@ Para construção da API foram utilizados NodeJS com TypeScript, Express, CORS e
 
 #### Parâmetros 
 Query:
-	week_day: Dia da semana (0 a 6) que o usuário seja ter aula,
-	subject: Matéria que o usuário deseja ter aula,
-	time: Horário em que o usuário deseja ter aula (HH:MM)
+- week_day: Dia da semana (0 a 6) que o usuário seja ter aula,
+- subject: Matéria que o usuário deseja ter aula,
+- time: Horário em que o usuário deseja ter aula (HH:MM)
 
 #### Respostas 
 ##### OK! 200
@@ -46,16 +46,16 @@ Exemplo de resposta:
 - Esse endpoint é responsável por criar uma nova aula.
 
 #### Parâmetros 
-name: Nome do professor,
-avatar: URL do avatar do professor,
-whatsapp: Número do whatsapp do professor,
-bio: Biografia do professor,
-subject: Matéria da aula,
-cost: Preço da hora/aula,
-schedule: 
-	week_day: Dia da semana (0 a 6) da aula,
-	from: Horário início em que o professor estará disponível para dar aula (HH:MM),
-	to: Horário final em que o professor estará disponível para dar aula (HH:MM)
+- name: Nome do professor,
+- avatar: URL do avatar do professor,
+- whatsapp: Número do whatsapp do professor,
+- bio: Biografia do professor,
+- subject: Matéria da aula,
+- cost: Preço da hora/aula,
+- schedule: 
+	- week_day: Dia da semana (0 a 6) da aula,
+	- from: Horário início em que o professor estará disponível para dar aula (HH:MM),
+	- to: Horário final em que o professor estará disponível para dar aula (HH:MM)
 
 Exemplo: 
 ```
